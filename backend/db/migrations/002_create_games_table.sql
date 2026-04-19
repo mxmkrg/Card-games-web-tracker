@@ -3,5 +3,5 @@ CREATE TABLE IF NOT EXISTS games (
     name varchar(100) NOT NULL,
     description text,
     created_by uuid NOT NULL,
-    FOREIGN KEY (created_by) REFERENCES users(user_id)
+    FOREIGN KEY (created_by) REFERENCES users(id)
 );

@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS match_results (
     user_id uuid NOT NULL,
     is_winner boolean NOT NULL,
     FOREIGN KEY (match_id) REFERENCES matches(id),
-    FOREIGN KEY (user_id) REFERENCES users(user_id)
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
