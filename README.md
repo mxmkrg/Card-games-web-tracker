@@ -19,7 +19,6 @@ A minimalistic web application to track wins for competitive card and board game
 - Game library: Add or select games from the game library
 - Scoreboard: Track matches and the winner from the match to adjust wins on the scoreboard for each game
 
-
 ## Database schema
 
 ### Extensions
