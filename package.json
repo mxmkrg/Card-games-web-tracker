@@ -1,0 +1,22 @@
+{
+  "name": "card-games-web-tracker",
+  "version": "1.0.0",
+  "description": "A minimalistic web application to track wins for competitive card and board game nights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxmkrg/Card-games-web-tracker.git"
+  },
+  "author": "Maxim Krüger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxmkrg/Card-games-web-tracker/issues"
+  },
+  "homepage": "https://github.com/mxmkrg/Card-games-web-tracker#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
